@@ -1,0 +1,18 @@
+ARG_ENABLE("psr", "enable psr", "no");
+
+if (PHP_PSR != "no") {
+  EXTENSION("psr", "psr.c", null, "-I"+configure_module_dirname);
+  ADD_SOURCES(configure_module_dirname + "/kernel", "main.c memory.c exception.c hash.c debug.c backtrace.c object.c array.c string.c fcall.c require.c file.c operators.c math.c concat.c variables.c filter.c iterator.c exit.c time.c", "psr");
+  ADD_SOURCES(configure_module_dirname + "/kernel/extended", "array.c fcall.c", "psr");
+  /* PCRE is always included on WIN32 */
+  AC_DEFINE("ZEPHIR_USE_PHP_PCRE", 1, "Whether PHP pcre extension is present at compile time");
+  if (PHP_JSON != "no") {
+    ADD_EXTENSION_DEP("psr", "json");
+    AC_DEFINE("ZEPHIR_USE_PHP_JSON", 1, "Whether PHP json extension is present at compile time");
+  }
+  
+  ADD_SOURCES(configure_module_dirname + "/psr/http/message", "messageinterface.zep.c requestinterface.zep.c responseinterface.zep.c serverrequestinterface.zep.c streaminterface.zep.c uploadedfileinterface.zep.c uriinterface.zep.c", "psr");
+	ADD_SOURCES(configure_module_dirname + "/psr/log", "loggerinterface.zep.c abstractlogger.zep.c invalidargumentexception.zep.c loglevel.zep.c loggerawareinterface.zep.c nulllogger.zep.c", "psr");
+	ADD_SOURCES(configure_module_dirname + "/psr/cache", "cacheexception.zep.c cacheiteminterface.zep.c cacheitempoolinterface.zep.c invalidargumentexception.zep.c", "psr");
+  ADD_FLAG("CFLAGS_PSR", "/D ZEPHIR_RELEASE");
+}

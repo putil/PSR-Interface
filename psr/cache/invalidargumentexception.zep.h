@@ -1,0 +1,5 @@
+
+extern zend_class_entry *psr_cache_invalidargumentexception_ce;
+
+ZEPHIR_INIT_CLASS(Psr_Cache_InvalidArgumentException);
+

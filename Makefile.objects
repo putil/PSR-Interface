@@ -1,0 +1,86 @@
+psr.lo: /Users/eagle/workspace/psr/ext/psr.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr.c -o psr.lo 
+kernel/main.lo: /Users/eagle/workspace/psr/ext/kernel/main.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/main.c -o kernel/main.lo 
+kernel/memory.lo: /Users/eagle/workspace/psr/ext/kernel/memory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/memory.c -o kernel/memory.lo 
+kernel/exception.lo: /Users/eagle/workspace/psr/ext/kernel/exception.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/exception.c -o kernel/exception.lo 
+kernel/hash.lo: /Users/eagle/workspace/psr/ext/kernel/hash.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/hash.c -o kernel/hash.lo 
+kernel/debug.lo: /Users/eagle/workspace/psr/ext/kernel/debug.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/debug.c -o kernel/debug.lo 
+kernel/backtrace.lo: /Users/eagle/workspace/psr/ext/kernel/backtrace.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/backtrace.c -o kernel/backtrace.lo 
+kernel/object.lo: /Users/eagle/workspace/psr/ext/kernel/object.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/object.c -o kernel/object.lo 
+kernel/array.lo: /Users/eagle/workspace/psr/ext/kernel/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/array.c -o kernel/array.lo 
+kernel/extended/array.lo: /Users/eagle/workspace/psr/ext/kernel/extended/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/extended/array.c -o kernel/extended/array.lo 
+kernel/string.lo: /Users/eagle/workspace/psr/ext/kernel/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/string.c -o kernel/string.lo 
+kernel/fcall.lo: /Users/eagle/workspace/psr/ext/kernel/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/fcall.c -o kernel/fcall.lo 
+kernel/extended/fcall.lo: /Users/eagle/workspace/psr/ext/kernel/extended/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/extended/fcall.c -o kernel/extended/fcall.lo 
+kernel/require.lo: /Users/eagle/workspace/psr/ext/kernel/require.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/require.c -o kernel/require.lo 
+kernel/file.lo: /Users/eagle/workspace/psr/ext/kernel/file.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/file.c -o kernel/file.lo 
+kernel/operators.lo: /Users/eagle/workspace/psr/ext/kernel/operators.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/operators.c -o kernel/operators.lo 
+kernel/math.lo: /Users/eagle/workspace/psr/ext/kernel/math.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/math.c -o kernel/math.lo 
+kernel/concat.lo: /Users/eagle/workspace/psr/ext/kernel/concat.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/concat.c -o kernel/concat.lo 
+kernel/variables.lo: /Users/eagle/workspace/psr/ext/kernel/variables.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/variables.c -o kernel/variables.lo 
+kernel/filter.lo: /Users/eagle/workspace/psr/ext/kernel/filter.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/filter.c -o kernel/filter.lo 
+kernel/iterator.lo: /Users/eagle/workspace/psr/ext/kernel/iterator.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/iterator.c -o kernel/iterator.lo 
+kernel/time.lo: /Users/eagle/workspace/psr/ext/kernel/time.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/time.c -o kernel/time.lo 
+kernel/exit.lo: /Users/eagle/workspace/psr/ext/kernel/exit.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/kernel/exit.c -o kernel/exit.lo 
+psr/http/message/messageinterface.lo: /Users/eagle/workspace/psr/ext/psr/http/message/messageinterface.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/http/message/messageinterface.zep.c -o psr/http/message/messageinterface.lo 
+psr/log/loggerinterface.lo: /Users/eagle/workspace/psr/ext/psr/log/loggerinterface.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/log/loggerinterface.zep.c -o psr/log/loggerinterface.lo 
+psr/cache/cacheexception.lo: /Users/eagle/workspace/psr/ext/psr/cache/cacheexception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/cache/cacheexception.zep.c -o psr/cache/cacheexception.lo 
+psr/http/message/requestinterface.lo: /Users/eagle/workspace/psr/ext/psr/http/message/requestinterface.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/http/message/requestinterface.zep.c -o psr/http/message/requestinterface.lo 
+psr/log/abstractlogger.lo: /Users/eagle/workspace/psr/ext/psr/log/abstractlogger.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/log/abstractlogger.zep.c -o psr/log/abstractlogger.lo 
+psr/cache/cacheiteminterface.lo: /Users/eagle/workspace/psr/ext/psr/cache/cacheiteminterface.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/cache/cacheiteminterface.zep.c -o psr/cache/cacheiteminterface.lo 
+psr/cache/cacheitempoolinterface.lo: /Users/eagle/workspace/psr/ext/psr/cache/cacheitempoolinterface.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/cache/cacheitempoolinterface.zep.c -o psr/cache/cacheitempoolinterface.lo 
+psr/cache/invalidargumentexception.lo: /Users/eagle/workspace/psr/ext/psr/cache/invalidargumentexception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/cache/invalidargumentexception.zep.c -o psr/cache/invalidargumentexception.lo 
+psr/http/message/responseinterface.lo: /Users/eagle/workspace/psr/ext/psr/http/message/responseinterface.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/http/message/responseinterface.zep.c -o psr/http/message/responseinterface.lo 
+psr/http/message/serverrequestinterface.lo: /Users/eagle/workspace/psr/ext/psr/http/message/serverrequestinterface.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/http/message/serverrequestinterface.zep.c -o psr/http/message/serverrequestinterface.lo 
+psr/http/message/streaminterface.lo: /Users/eagle/workspace/psr/ext/psr/http/message/streaminterface.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/http/message/streaminterface.zep.c -o psr/http/message/streaminterface.lo 
+psr/http/message/uploadedfileinterface.lo: /Users/eagle/workspace/psr/ext/psr/http/message/uploadedfileinterface.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/http/message/uploadedfileinterface.zep.c -o psr/http/message/uploadedfileinterface.lo 
+psr/http/message/uriinterface.lo: /Users/eagle/workspace/psr/ext/psr/http/message/uriinterface.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/http/message/uriinterface.zep.c -o psr/http/message/uriinterface.lo 
+psr/log/invalidargumentexception.lo: /Users/eagle/workspace/psr/ext/psr/log/invalidargumentexception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/log/invalidargumentexception.zep.c -o psr/log/invalidargumentexception.lo 
+psr/log/loglevel.lo: /Users/eagle/workspace/psr/ext/psr/log/loglevel.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/log/loglevel.zep.c -o psr/log/loglevel.lo 
+psr/log/loggerawareinterface.lo: /Users/eagle/workspace/psr/ext/psr/log/loggerawareinterface.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/log/loggerawareinterface.zep.c -o psr/log/loggerawareinterface.lo 
+psr/log/nulllogger.lo: /Users/eagle/workspace/psr/ext/psr/log/nulllogger.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/workspace/psr/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/workspace/psr/ext/psr/log/nulllogger.zep.c -o psr/log/nulllogger.lo 
+$(phplibdir)/psr.la: ./psr.la
+	$(LIBTOOL) --mode=install cp ./psr.la $(phplibdir)
+
+./psr.la: $(shared_objects_psr) $(PSR_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_psr) $(PSR_SHARED_LIBADD)
+
